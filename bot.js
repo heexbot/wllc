@@ -3,10 +3,10 @@ const client = new Discord.Client();
 
 
 client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("500838241784823814");
+const mohamed= member.guild.channels.get("519204253663887377");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`*WELCOME TO DESERT*`), 4000)        
+setTimeout(() => mohamed.send(`**#Welcomee-to-T̶G̶Z̶S̶H̶O̶P̶** ❤`), 4000)        
 }
 });
 
